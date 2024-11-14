@@ -23,7 +23,9 @@ jobs:
         java-version: '23'
         distribution: 'temurin'
         cache: maven
-    - uses: actions/checkout@v4    
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.ref }}
     - name: Build with Maven
       run: mvn -B clean install 
       
