@@ -1,10 +1,10 @@
 package org.example.models;
 
-import lombok.ToString;
+import lombok.Data;
 
-@ToString
+@Data
 public class Opportunity {
-    public Object originalEventTime;
+    public Long originalEventTime;
     public int maxDuration;
     public Zones zones;
     public PositionUrlSegments positionUrlSegments;

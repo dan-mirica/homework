@@ -1,8 +1,8 @@
 package org.example.models;
 
-import lombok.ToString;
+import lombok.Data;
 
-@ToString
+@Data
 public class Zone1 {
     public int id;
     public int maxAds;

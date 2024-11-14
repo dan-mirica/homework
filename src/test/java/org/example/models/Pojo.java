@@ -1,10 +1,10 @@
 package org.example.models;
 
-import lombok.ToString;
+import lombok.Data;
 
 import java.util.ArrayList;
 
-@ToString
+@Data
 public class Pojo {
     public DownloadIdentifier downloadIdentifier;
     public ArrayList<Opportunity> opportunities;

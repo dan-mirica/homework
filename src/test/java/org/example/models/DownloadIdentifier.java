@@ -1,8 +1,8 @@
 package org.example.models;
 
-import lombok.ToString;
+import lombok.Data;
 
-@ToString
+@Data
 public class DownloadIdentifier {
     public String client;
     public int publisher;
